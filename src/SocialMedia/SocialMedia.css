@@ -1,0 +1,50 @@
+.social-media-header {
+    width: 100%;
+    background-color: #69727d;
+    padding: 20px 0;
+}
+
+.social-media-header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.instagram {
+    background-color: #BD00C4FA;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.whatsapp {
+    background-color: #61CE70;
+    color: #ffffff;
+    opacity: 0.9;
+}

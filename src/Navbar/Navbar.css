@@ -1,0 +1,138 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DBDBDB;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 170px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-menu .active {
+    color: #FA309B;
+}
+
+/* Dropdown parent */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #f5f5f5;
+    min-width: 220px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    padding: 0;
+    z-index: 1000;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    list-style: none;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/* Remove last border */
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect */
+.dropdown-menu li:hover {
+    background-color: #FA309B;
+    color: #ffffff;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Align icon */
+.nav-menu li svg {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.submenu {
+    position: relative;
+}
+
+/* Right-side submenu */
+.submenu-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f5f5f5;
+    min-width: 220px;
+    display: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    padding: 0;
+}
+
+/* Submenu items */
+.submenu-menu li {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+/* Show submenu on hover */
+.submenu:hover .submenu-menu {
+    display: block;
+}
+
+/* Make submenu items flex */
+.dropdown-menu li.submenu {
+    display: flex;
+    justify-content: space-between; /* pushes arrow to the end */
+    align-items: center;
+}
+
+/* Ensure arrow stays at right */
+.dropdown-menu li.submenu svg {
+    margin-left: auto;
+}
+
+.download-button {
+    background-color: #FA309B;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    padding: 15px 40px 15px 40px;
+    margin-right: 150px;
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+.contact-page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://radhahitech.com/wp-content/uploads/2025/02/20210323_214244-1-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+}
+
+.contact-page-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px 10%;
+    background-color: #ffffff;
+}
+
+.contact-page-section > div {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form-container {
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form label {
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 18px;
+    padding: 10px;
+    border: 1px solid #69727d;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 160px; 
+}
+
+.contact-form button {
+    background-color: #fa309b;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 104%;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    opacity: 0.9;
+}
+
+
+.contact-info-container {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.contact-details {
+    padding: 0;
+    margin-top: 0px;
+}
+
+.contact-details li {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.contact-icon {
+    color: #fa309b;
+    height: 14px;
+    width: 14px;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+
+.contact-subtitle {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FA309B;
+}
+
+.contact-info-container h1 {
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.contact-description {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
