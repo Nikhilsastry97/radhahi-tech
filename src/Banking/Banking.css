@@ -42,6 +42,7 @@
 .slider-container {
     width: 80%;
     margin-top: -20px;
+    
 }
 
 .slide-image {
@@ -51,5 +52,6 @@
     border-radius: 0;
     box-shadow: none;
     height: auto;
+    margin-bottom: 40px;
 
 }

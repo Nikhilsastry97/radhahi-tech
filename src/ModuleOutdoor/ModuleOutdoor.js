@@ -20,11 +20,11 @@ class ModuleOutdoor extends Component {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 0,   
-        speed: 3000,        
-        cssEase: "linear",  
+        autoplaySpeed: 20000,   
+        speed: 20000,           
+        cssEase: "ease",       
         arrows: false,
-        pauseOnHover: false
+        pauseOnHover: true
     };
 
         return (

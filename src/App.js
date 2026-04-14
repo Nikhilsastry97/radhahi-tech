@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './HomePage/HomePage';
 import AboutUs from './AboutUs/AboutUs';
+import LocationOverview from "./Location&Overview/Location&Overview";
 import ModuleIndoor from "./ModuleIndoor/ModuleIndoor";
 import ModuleOutdoor from "./ModuleOutdoor/ModuleOutdoor";
 import SignFix from "./SignFix/SignFix";
@@ -28,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/location-overview" element={<LocationOverview />} />
         <Route path="/module-plus-indoor" element={<ModuleIndoor />} />
         <Route path="/module-plus-outdoor" element={<ModuleOutdoor />} />
         <Route path="/i-sign-fix" element={<SignFix />} />

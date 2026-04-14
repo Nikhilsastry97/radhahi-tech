@@ -59,6 +59,12 @@ class ContactUs extends Component {
                         </ul>
                     </div>
                 </div>
+                <div className="map-container">
+                <iframe title="location-map" src="https://www.google.com/maps?q=17.4215,78.5488&z=15&output=embed"
+                    width="100%" height="400" style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"></iframe>
+                </div>
                 <Footer/>
                 <Copyright/>
                 </div>
