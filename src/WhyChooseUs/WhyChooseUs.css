@@ -1,0 +1,29 @@
+/* Why Choose Us List */
+.why-choose-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.why-choose-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+}
+
+.diamond-icon {
+    color: #4aa3df; /* Blue diamond color */
+    font-size: 14px;
+    margin-right: 12px;
+    margin-top: 6px;
+    flex-shrink: 0;
+}
+
+/* Optional: Improve heading spacing */
+.led-signages-heading {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

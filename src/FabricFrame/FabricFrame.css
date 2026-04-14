@@ -1,0 +1,57 @@
+.fabric-frame-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.fabric-frame-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.fabric-frame-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.fabric-frame-heading {
+    font-family: "Roboto", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #2A2A2A;
+}
+
+.fabric-frame-paragraph {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.fabric-frame-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.gallery-item img {
+    width: 600px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

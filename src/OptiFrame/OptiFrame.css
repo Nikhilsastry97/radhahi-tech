@@ -1,0 +1,63 @@
+.opti-frame-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.opti-frame-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.opti-frame-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.opti-frame-heading {
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.opti-frame-paragraph {
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.opti-frame-features {
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.slider-container {
+    width: 80%;
+    margin-top: -20px;
+}
+
+.slide-image {
+    width: 95%;
+    object-fit: cover;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+
+}
